@@ -1,0 +1,85 @@
+
+.sec2-wraper{
+    position: relative;
+}
+
+#heading2{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 174, 0);
+    top: 150px;
+}
+
+
+.sec2-wraper ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.sec2-wraper ul li{
+    margin: 20px 0px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.sec2-wraper ul li a:hover{
+    color: rgb(255, 174, 0);
+}
+
+.sec2-wraper ul{
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+    padding-top: 119px;
+    /* padding-bottom: 150px; */
+}
+
+.sec2-wraper button{
+    background: none;
+    border: none;
+    margin-top: 20px;
+}
+
+.sec2-wraper button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(255, 174, 0);
+    padding: 20px 94px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.sec2-wraper button a:hover{
+    color: rgb(255, 174, 0);
+    background-color: white;
+}
+
+#vid1, #vid2, #vid3, #vid4, #vid5{
+    display: none;
+    z-index: 9;
+    margin-top: 100px;
+    width: 800px;
+    margin-left: -100px;
+}
+
+
+.part2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.part2 span{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.176);
+    font-size: 30px;
+    text-align: center;
+}

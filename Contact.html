@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CDN CSS  -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font-Awesome Libraries CDN CSS  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Jquery 3.7.0 CDN  -->
+
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"
+  ></script>
+
+
+    <!-- Responsiveness  -->
+
+    <link rel="stylesheet" href="./Assets/CSS/Responsive.css">
+
+    <!-- Main CSS  -->
+
+    <link rel="stylesheet" href="./Assets/CSS/Stylesheet.css" />
+
+    <link rel="stylesheet" href="./Assets/CSS/contact.css">
+
+    <title>Portfolio</title>
+    <style>
+      .section {
+          display: none;
+          transition: all 1s;
+          
+      }
+      .visible {
+          display: block;
+      }
+  </style>
+      
+  </head>
+  <body>
+    <div class="main">
+      <header class="header">
+        <div class="header-wraper">
+          <div class="container">
+            <div class="row">
+              <div class="col-6 logo">
+                <a href="./Portfolio.html">
+                  <img src="./Assets/DATA/DDW.png" alt="Logo" />
+                </a>
+                </div>
+              <div class="col-6 navbar">
+                <nav>
+                    <ul>
+                        <li> <a href="./Portfolio.html">Home</a></li>
+                        <li> <a href="./Projects.html">Projects</a></li>
+                        <li> <a href="./Contact.html">Contact</a></li>
+                       
+                    </ul>
+                    <button class="bars">
+                      <i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <div class="sec1-wraper sec3-wraper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                        <div class="card">
+                            <div class="img">
+                                <img src="./Assets/DATA/Resume IMG.jpg" alt="">
+                            </div>
+                            <span>About Me</span>
+                            <p class="info">Hell I'm Ismail <br/>I am a Front-End Web Developer with one year of experience in HTML, CSS, and JavaScript. I am proficient in building responsive and visually appealing custom websites. I enjoy turning design mockups into interactive web experiences. I like to explore new front-end frameworks and improve my skills. </p>
+                            <span>Contacts</span>
+                            <div class="share">
+                              <a href="#">
+                                    mismailkhoso06@gmail.com
+                              </a>
+                              <br>
+                              <a href="#">
+                                WhatsApp: +923468436335
+                              </a>
+
+                            </div>
+                            
+                              <a href="https://drive.google.com/file/d/1Vvepj7U3zVakx3AIHnXaRj97zN4RRHKj/view?usp=drive_link" target="_main"> <button>Resume</button></a>
+                          </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+
+
+    </div>
+
+  <script>
+    jQuery(document).ready(function(){
+      jQuery('.bars').on('click', function(){
+        jQuery('ul').toggleClass('active')
+      });
+    });
+
+// <script src="./Assets/JS/script.js"></script>
+
+  </body>
+
+</html>

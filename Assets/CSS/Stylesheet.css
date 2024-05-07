@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+}
+
+.header-wraper {
+  background-color: rgb(12, 31, 63);
+  height: 80px;
+}
+
+.logo img {
+  padding-top: 10px;
+  margin-left: 100px;
+  width: 60px;
+}
+
+nav ul {
+  margin-top: 15px;
+  font-size: 23px;
+  display: flex;
+  gap: 100px;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+nav ul li a:hover{
+  color: rgb(255, 174, 0);
+ 
+}
+
+
+nav .bars {
+    display: none;
+}
+
+.sec1-wraper {
+  padding-top: 100px;
+  padding-bottom: 123px;
+  background: linear-gradient(rgb(12, 31, 63), rgb(108, 109, 110));
+}
+/* 
+.section {
+  display: none;
+  transition: opacity 1s ease-in-out;
+}
+.visible {
+  display: block;
+} */
+
+
+.words {
+  margin-left: 200px;
+  margin-top: 130px;
+  color: white;
+}
+
+.sec1-wraper .words h3 span {
+  color: rgb(255, 174, 0);
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+/* .section {
+  display: none;
+  transition: opacity 1s ease-in-out;
+}
+.show {
+  display: block;
+} */
+
+.words p {
+  color: white;
+  font-size: 20px;
+}
+
+.words .btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.words .btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(12, 61, 125);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.words .btn:hover {
+  border: 3px solid rgb(12, 61, 125);
+  background: none;
+}
+
+.vector1 img {
+  opacity: 70%;
+  margin-top: 10%;
+  width: 600px;
+  margin-left: 100px;
+}
+/* 
+.sec2{
+    height: 680px;
+    background-color: grey;
+} */
+
+
+#skills{
+  font-size: 50px;
+  font-weight: 800;
+  color: rgb(255, 174, 0);
+}
+
+#skills ul li .progress-bar{
+  color: rgb(255, 174, 0);
+}
